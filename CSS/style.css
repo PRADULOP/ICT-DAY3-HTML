@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../Images/new_one.jpeg');
+    background-size: cover;
+    background-position: fixed;
+}
+
+
+header{
+    background-color: black;
+    /* opacity: 0.5; */
+
+}
+
+#image{
+    height: 70px;
+    width: auto;
+    margin-left: 40px;
+}
+
+nav{
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    border: 0.1px solid white;
+    padding: 5px 10px;
+    margin-right: 3px;
+    font-size:large;
+}
+
+nav a:hover{
+    color: black;
+    background-color: teal;
+}
+
+.grp1{
+    color: white;
+    margin-top: 13%;
+    margin-left: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%;
+    float: left;
+}
+
+.grp1 ul li{
+    list-style: square;
+}
+.grp1 h3{
+    padding-bottom: 5px;
+}
+
+form{
+    float: right;
+    margin-right: 12%;
+    margin-top: 12%;
+    background-color: beige;
+    padding: 50px 50px;
+    border: 2px solid brown;
+    height: 15em;
+    
+    
+
+}
+
+form a{
+    text-decoration: none ;
+}
+
+form h2{
+    text-align: center;
+}
+
+.b1{
+    width: 145px;
+    height: 27px;
+    color:white ;
+    background-color: rgb(36, 143, 230);
+    border: none;
+    
+}
+.container{
+    margin-top: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pbox{
+    border: 2px solid white;
+    background-color: gainsboro;
+    width: 22%;
+    float: left;
+    margin-left: 2%;
+    height: 300px;
+    overflow: scroll;
+
+
+}
+
+.pbox h4{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.pbox a{
+    text-decoration: none;
+    color: brown;
+}
+
+.f{
+    color: white;
+    text-align: center;
+}
+
+.f1{
+    margin-top: 1200px;
+}
